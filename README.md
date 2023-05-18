@@ -48,7 +48,7 @@ go version
 
 ```sh
 # Validator_İsmi kısmına validatör (moniker) belirleyin.
-CASCADIA_MONIKER=VALİDATOR_İSMİ
+CASCADIA_MONIKER=kriptosekici
 
 echo 'export CASCADIA_MONIKER='$CASCADIA_MONIKER >> $HOME/.bash_profile
 echo "export CASCADIA_CHAIN_ID=cascadia_6102-1" >> $HOME/.bash_profile
