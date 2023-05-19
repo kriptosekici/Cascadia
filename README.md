@@ -214,7 +214,7 @@ cascadiad query bank balances cüzdan_adresiniz
 # sync olduktan yani false çıktısı verdikten sonra yapıyoruz burayı.
 cascadiad tx staking create-validator \
 --amount 1000000000000000000aCC \
---from=wallet \
+--from=kriptosekici \
 --commission-rate "0.05" \
 --commission-max-rate "0.20" \
 --commission-max-change-rate "0.1" \
@@ -222,9 +222,9 @@ cascadiad tx staking create-validator \
 --pubkey=$(cascadiad tendermint show-validator) \
 --moniker=$CASCADIA_MONIKER \
 --chain-id=$CASCADIA_CHAIN_ID \
---identity="şart_değil" \
---details="şart_değil" \
---website="şart_değil" \
+--identity="arn" \
+--details="arn" \
+--website="arn" \
 --gas auto \
 --gas-adjustment=1.2 \
 --gas-prices=7aCC \
